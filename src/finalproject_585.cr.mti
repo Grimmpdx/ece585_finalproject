@@ -1,0 +1,14 @@
+C:/MSD_FinalProject/parameter.v {0 {vlog -work work -stats=none C:/MSD_FinalProject/parameter.v
+Model Technology ModelSim PE Student Edition vlog 10.3d Compiler 2014.10 Oct  7 2014
+** Error: C:/MSD_FinalProject/parameter.v(1): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+
+
+} {3.0 4.0} {}} C:/MSD_FinalProject/file.v {0 {vlog -work work -stats=none C:/MSD_FinalProject/file.v
+Model Technology ModelSim PE Student Edition vlog 10.3d Compiler 2014.10 Oct  7 2014
+** Error: C:/MSD_FinalProject/file.v(2): (vlog-2155) Global declarations are illegal in Verilog 2001 syntax.
+
+** Error: C:/MSD_FinalProject/file.v(5): (vlog-2730) Undefined variable: 'MEM_SIZE'.
+
+** Error: C:/MSD_FinalProject/file.v(6): Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0 7.0 8.0} {}}

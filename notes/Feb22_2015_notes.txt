@@ -1,0 +1,22 @@
+High-level architecture
+1. Main Memory
+    A. 64KBytes
+    B. Inputs: opcode (read/write), address
+    C. Output: data (1byte)
+    D. Need a way to load a pre-defined memory image
+2. L1 Cache - see figure 50 in On Chip Cache Diagram
+    A. 16KByte -> unified data and instructions
+    B. LRU - can implement LRU, but should shoot for bit-PLRU or Tree-PLRU
+    C. 4-way associative
+        a. 256 lines per way, 16 bytes wide each
+    D. write-through policy (anything written to cache gets written to memory)
+    E. To write a full line (16 bytes), it takes four 32-bit bus transactions
+        a. Thus, each transaction must write 4 bytes (32 bits)
+3. Paging System
+    A. Confusing! Need more info
+    B. Takes 32-bit linear address and translates it to a physical address
+    
+    
+questions:
+1. Why do we have 64Kbyte memory (addressable with 16 bits) but a 32-bit address?
+2. 3-bit LRU - how does this tell you which of 1024 lines was least recently used?

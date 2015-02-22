@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/MSD_HW
+vmain
+!s110 1424563460
+!i10b 1
+!s100 I`<]57jPZ@l2G:18dVlmU3
+I3]bRe?KBV^>Gz`aD=9mI02
+V`JN@9S9cnhjKRR_L]QIcM3
+dC:/MSD_FinalProject
+w1424562974
+8C:/MSD_FinalProject/memorymap.v
+FC:/MSD_FinalProject/memorymap.v
+Fparameter.v
+Ffile.v
+L0 1
+OP;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1424563460.876000
+!s107 file.v|parameter.v|C:/MSD_FinalProject/memorymap.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/MSD_FinalProject/memorymap.v|
+!s101 -O0
+!i113 1
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
